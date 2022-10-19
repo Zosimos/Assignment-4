@@ -1,0 +1,123 @@
+/*global*/
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    border: whitesmoke solid 3px;
+    background-color:rgb(36, 35, 37);
+    color:antiquewhite;
+}
+h1{
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    text-decoration: overline;
+    background-color: rgba(7, 141, 182, 0.568);
+    color: rgb(0, 0, 0);
+}
+h2{
+    text-align:center;
+    color:lightgreen;
+
+}
+
+
+/*utilities*/
+.btn{
+    display:block;
+    background-color:rgb(146, 145, 158) ;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    padding:8px;
+    border-radius:5px;
+    
+}
+.btn-small{
+    font-size: 14px;
+    width:150px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    
+}
+/*header*/
+header img{
+    display:block;
+    width:140px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50%;
+    border:5px solid whitesmoke;
+    padding:5px;
+}
+header{
+    flex-basis:15%;
+}
+.classy{
+    text-transform:uppercase;
+    color:yellow;
+    text-align: center;
+}
+.classy1{
+    text-transform:uppercase;
+    text-align: center;
+}
+/*main*/
+main{
+    flex-basis:85%;
+    
+}
+.border{
+   
+    text-align: center;
+    display: block;
+    margin-left:20px;
+    margin-right: 20px;
+    border: rgb(162, 165, 152) solid 3px
+}
+.center{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+a:hover{
+font-size: 101%;
+}
+a:active{
+    font-size: 95%;
+}
+img{
+    max-width:100%;
+    
+}
+.main-greeting{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-name{
+    text-transform:uppercase;
+    font-weight:bold;
+    color:aqua;
+    font-size:22px;
+}
+.graduation-box{
+    background-color:black;
+    padding:10px;
+    margin:30px;
+}
+.graduation-header{
+    display:flex;
+}
+.degree{
+    font-size:20px;
+    font-weight:700;
+}
